@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>Projects</title>
+<style type='text/css'>
+*
+{
+	margin:0px;
+}
+body
+{
+	background-image:url('login1.png');
+	background-size:auto;
+}
+.active
+{
+	background-color:#4caf50;
+	color:white;
+	font-size:20;
+	padding:25px;
+	width:20px;
+	height:20px;
+}
+.nav
+{
+	background-color:gray;
+	padding:20px 18px;
+	font-size:20px;
+	color:black;
+	text-align:center;
+	text-decoration:none;
+}
+.nav a:hover
+{
+	background-color:red;
+	color:black;
+	height:20px;
+	width:30px;
+	padding:20px;
+}
+button
+{
+	font-size:20;
+	height:4%;
+	border-radius:5px;
+	width:8%;
+}
+.dropdown
+{
+	width:90%;
+	height:120px;
+	margin-left:0px;
+}
+.dropdown ul li
+{
+	background-color:blue;
+	color:white;
+	width:200px;
+	font-size:15px;
+	list-size:none;
+	list-style:none;
+	line-height:25px;
+	opacity:0.8;
+	padding:15px 15px 15px 15px;
+	border-radius:30px;
+}
+.dropdown ul li ul
+{
+	display:none;
+}
+.dropdown ul li:hover>ul
+{
+	display:block;
+}
+.dropdown ul li:hover
+{
+	background-color:green;
+	cursor:pointer;
+	opacity:0.9;
+}
+.dropdown ul li ul li
+{
+	position:relative;
+}
+.dropdown ul li ul li ul
+{
+	position:absolute;
+}
+</style>
+</head>
+<body>
+<nav class='nav'><b>
+<a href='index.html'>HOME</a>&nbsp;
+<a href='about.html'>ABOUT</a>&nbsp;
+<a href='resume.html'>RESUME</a>&nbsp;
+<a href='project.html' class='active'>PROJECTS</a>&nbsp;
+<a href=''>GORILLA</a>&nbsp;
+<a href='login1.html'>LOGIN</a>&nbsp;
+<a href='register.html'>REGISTRATION</a></b></nav>
+<div class="dropdown">
+<ul>
+	<li>GUI Calculator with Python</li>
+	<li>School Management System
+		<ul>
+			<li>Prompt-based without DBMS</li>
+			<li>Prompt-based with DBMS</li>
+		</ul>
+	</li>
+	<li>Sports Shop
+		<ul>
+			<li>GUI(tkinter) with DBMS</li>
+		</ul>
+	</li>
+	<li>Library Management
+		<ul>
+			<li>Prompt-based
+				<ul>
+					<li>With DBMS</li>
+					<li>Without DBMS</li>
+				</ul>
+			</li>
+			<li>GUI
+				<ul>
+					<li>With Tkinter module and DBMS</li>
+					<li>Without DBMS</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>Bus Ticket Booking
+		<ul>
+			<li>Prompt-based
+				<ul>
+					<li>With DBMS</li>
+					<li>Without DBMS</li>
+				</ul>
+			</li>
+			<li>GUI
+				<ul>
+					<li>With Tkinter module and DBMS</li>
+					<li>Without DBMS</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+</div>
+</body>
+</html>

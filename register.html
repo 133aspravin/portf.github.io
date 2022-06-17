@@ -1,0 +1,168 @@
+<HTML>
+<HEAD>
+<TITLE >Registration Page</TITLE>
+<style type="text/css">
+*
+{
+	margin:0px;
+}
+body
+{	
+	background-image:url('login1.png');
+	background-repeat:no-repeat;
+	background-size:auto;
+	align:center;
+}
+h1
+{	
+	height:25px;
+	background-color:white;
+	opacity:0.4;
+	padding:10px;
+}
+.table
+{	
+	background-image:url('circle1.jpg');
+	background-size:100%;
+	padding:20px 20px 20px 20px;
+	margin-left:auto;
+	margin-right:50px;
+	align:right;
+	border-radius:10px;
+	font-size:110%;
+	color:white;
+}
+.table td 
+{
+	text-align:left;
+}
+.labels
+{
+	padding:10px;
+}
+.user
+{
+	width:50px;
+}
+.active
+{
+	background-color:#4caf50;
+	color:white;
+	font-size:20;
+	padding:25px;
+	width:20px;
+	height:20px;
+}
+.nav
+{
+	background-color:gray;
+	padding:20px 18px;
+	font-size:20px;
+	color:black;
+	text-align:center;
+	text-decoration:none;
+}
+.nav a:hover
+{
+	background-color:red;
+	color:black;
+	height:20px;
+	width:30px;
+	padding:20px;
+}
+.form a
+{	
+	float:right;
+	margin-right:50px;
+	align:right;
+}
+.profimg
+{
+	width:30px;
+	height:30px;
+	float:right;
+}
+</style>
+</head>
+<body>
+<nav class='nav'><b>
+<a href='index.html'>HOME</a>&nbsp;&nbsp;
+<a href='about.html'>ABOUT</a>&nbsp;&nbsp;
+<a href='resume.html'>RESUME</a>&nbsp;&nbsp;
+<a href='project.html'>PROJECTS</a>&nbsp;&nbsp;
+<a href=''>GORILLA</a>&nbsp;&nbsp;
+<a href='login1.html'>LOGIN</a>&nbsp;&nbsp;
+<a href='register.html' class='active'>REGISTRATION</a></b>
+<img src='profile.png' class='profimg'/></nav>
+<BODY  align='center'><u><b>
+<h1><marquee onmouseover="this.stop();" onmouseout="this.start();">WELCOME TO OUR PAGE</marquee></h1><br><br>
+<h2 Align="center" BGcolor="red" >Enter Details below to register:</h2></u><br>
+<form action="register.html" method="get" class='form'>
+	<table class='table' align='center' text-align='center'>
+		<tr>
+			<td class='labels'><label>Full Name</label></td>
+			<td><input type='text' placeholder='name'/></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class='labels'><label>Gender</label></td>
+			<td>Male<input type='radio' name='a'  value='male' checked/></td>		
+			<td>Female<input type='radio' name='a' value='female'/></td>
+		</tr>
+		<tr>
+			<td class='labels'><label>Religion</label></td>
+			<td><select name='bd id='2'>
+			<option value='0'>Hindu</option>
+			<option value='1'>Muslim</option>
+			<option value='2'>Sikh</option>
+			<option value='3'>Christian</option>
+			<option value='4'>Jain</option>
+			<option value='5'>Jew</option>
+			<option value='6'>Others</option>
+			</select></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class='labels'><label>Course</label></td>
+			<td><select name='b' id='1'>
+			<option value='0'>BA</option>
+			<option value='1'>BCOM</option>
+			<option value='2'>BCA</option>
+			<option value='3'>BTech</option>
+			<option value='4'>BSC</option>
+			</select></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class='labels'><label>Mobile</label></td>
+			<td><input type='digits' placeholder='mobile'/></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class='labels'><label>Email</label></td>
+			<td><input type='email' placeholder='Email'/></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class='labels'><label>AADHAAR</label></td>
+			<td><input type='decimal' placeholder='aadhaar'/></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class='labels'><label>Generate password</label></td>
+			<td><input type='password' placeholder='Password'/></td>
+			<td></td>
+		<tr>
+			<td class='labels'>Upload Aadhaar</td>
+			<td></b><input type='file' name='c' accept='image/**'/></td>
+		</tr>
+		<tr>
+			<td><button type='submit'>REGISTER</button></td>
+			<td><button type='reset'>RESET</button></td>
+			<td><button type='exit'>EXIT</button></td>
+		</tr>
+	</table>
+	<a href="login1.html">Go to Login Page</a>
+</form>
+</BODY>
+</HTML>
